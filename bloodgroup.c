@@ -5,7 +5,10 @@ void main()
   int i;
   do
   {
+<<<<<<< HEAD
     printf("What is name? ");
+=======
+    printf("Please fill in your name:  ");
     scanf("%s", Name);
     do
     {
@@ -16,7 +19,7 @@ void main()
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 )
-        printf("Blood group %s is incorrect! Please try again.\n", G);
+        printf("Blood group %s is incorrect! Please fill again.\n", G);
     }  while (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
